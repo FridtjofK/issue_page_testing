@@ -34,7 +34,6 @@ body:
   - type: dropdown
     id: type_of_issue
     attributes:
-      label: ""
       options:
         - Transient - Occuring only once
         - Intermittent - Occuring irregularly
