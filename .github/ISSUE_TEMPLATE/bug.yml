@@ -20,9 +20,8 @@ body:
     id: subject
     attributes:
       label: Subject
-      description: ""
+      description: Please add a relevant subject for the bug you are experiencing
       placeholder: Please add a subject of the bug
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -31,25 +30,22 @@ body:
       label: What bug are you facing?
       description: Also tell us, what did you expect to happen?
       placeholder: "Please describe the bug you have encountered as detailed as possible"
-      value: ""
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
       label: What are the steps to reproduce this bug?
-      description: ""
+      description: "Please provide the steps to reproduce this bug"
       placeholder: "Please provide the steps to reproduce this bug"
-      value: ""
     validations:
       required: true
   - type: textarea
     id: provide-logs
     attributes:
       label: Can you provide any relevant logs or output?
-      description: ""
+      description: "Please provide logs or output"
       placeholder: "Please provide logs or output to illustrate this issue. Please only provide non-sensitive data"
-      value: ""
     validations:
       required: true
   - type: dropdown
