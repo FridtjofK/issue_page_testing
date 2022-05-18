@@ -8,6 +8,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: existing_issue
+    attributes:
+      label: Is there an existing similar issue?
+      description: Please search for similar existing and solved issues before committing yours.
+      options:
+        - label: I have searched for similar issues, but haven't found any equivalent.
+          required: true
   - type: input
     id: contact
     attributes:
