@@ -35,7 +35,6 @@ body:
     id: type_of_issue
     attributes:
       label: Type of issue
-      description: Please specify how this often the bug occurs.
       options:
         - Transient - Occuring only once
         - Intermittent - Occuring irregularly
