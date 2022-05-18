@@ -28,7 +28,7 @@ body:
     attributes:
       label: What issue are you facing?
       description: Also tell us, what the expeceted outcome was?
-      placeholder: "Please describe the bug you have encountered as detailed as possible"
+      placeholder: "Please describe the bug and the expected out you have encountered as detailed as possible"
     validations:
       required: true
   - type: textarea
@@ -46,25 +46,15 @@ body:
     id: provide-logs
     attributes:
       label: Can you provide any relevant logs or output?
-      description: "Please provide logs or output"
-      placeholder: "Please provide logs or output to illustrate this issue. Please only provide non-sensitive data"
+      description: Please provide logs or output to illustrate your issue. Please only provide non-sensitive data"
+      placeholder: "Click here and then drag and drop your attachments"
     validations:
-      required: true
-  - type: dropdown
-    id: blocking
-    attributes:
-      label: Blocking
-      description: Is this issue blocking you from using Qapio?
-      options:
-        - non-blocking
-        - blocking
-    validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://qapio.com)
+      description: By submitting this issue, you agree to follow our Code of Conduct.
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
