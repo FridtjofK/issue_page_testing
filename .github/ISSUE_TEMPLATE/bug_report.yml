@@ -23,6 +23,35 @@ body:
       description: Please add a relevant subject for the bug you are experiencing.
     validations:
       required: true
+  - type: dropdown
+    id: type_of_issue
+    attributes:
+      label: Type of issue
+      description: Please specify how this often the bug occurs.
+      options:
+        - Transient - Occuring only once
+        - Intermittent - Occuring irregularly
+        - Permanent - Occuring repeeatedly
+    validations:
+      required: false
+  - type: dropdown
+    id: blocking
+    attributes:
+      label: Blocking
+      description: Is this issue blocking you from using Qapio?
+      options:
+        - non-blocking
+        - blocking
+    validations:
+      required: false
+      
+  - type: input
+    id: last_working_date
+    attributes:
+      label: Last working date
+      description: When was the last known working date?
+    validations:
+      required: false      
   - type: textarea
     id: what-issue
     attributes:
