@@ -36,7 +36,9 @@ body:
     attributes:
       label: What are the steps to reproduce this bug?
       description: "Please provide the steps to reproduce this bug. The more detailed the better!"
-      placeholder: "technologies: [ tech1, tech2, tech3 ]"
+      placeholder: "technologies: 
+      -tech1, tech2
+      - sdfsdf"
     validations:
       required: false
   - type: textarea
