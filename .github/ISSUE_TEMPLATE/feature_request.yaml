@@ -27,6 +27,7 @@ body:
       description: Please add a relevant subject for your feature request.
     validations:
       required: true
+  - type: textarea
     id: problem-related
     attributes:
       label: Is the request related to a problem?
