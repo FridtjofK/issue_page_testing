@@ -12,23 +12,22 @@ body:
     id: contact
     attributes:
       label: Your contact details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Please list your e-mail in order for us to reach out if necessary.
+      placeholder: email@example.com
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: subject
     attributes:
       label: Subject
-      description: Please add a relevant subject for the bug you are experiencing
-      placeholder: Please add a subject of the bug
+      description: Please add a relevant subject for the bug you are experiencing.
     validations:
       required: true
   - type: textarea
     id: what-issue
     attributes:
-      label: What bug are you facing?
-      description: Also tell us, what did you expect to happen?
+      label: What issue are you facing?
+      description: Also tell us, what the expeceted outcome was?
       placeholder: "Please describe the bug you have encountered as detailed as possible"
     validations:
       required: true
@@ -36,10 +35,10 @@ body:
     id: reproduction
     attributes:
       label: What are the steps to reproduce this bug?
-      description: "Please provide the steps to reproduce this bug"
+      description: "Please provide the steps to reproduce this bug. The more detailed the better!"
       placeholder: "Please provide the steps to reproduce this bug"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: provide-logs
     attributes:
