@@ -60,8 +60,7 @@ body:
       required: false
     id: date2
     attributes:
-      label: Blocking2
-      description: Is the issue blocking you from using Qapio?
+
       options:
         - non-blocking
         - blocking
