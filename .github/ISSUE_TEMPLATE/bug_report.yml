@@ -41,7 +41,27 @@ body:
     id: blocking
     attributes:
       label: Blocking
-      description: Is this issue blocking you from using Qapio?
+      description: Is the issue blocking you from using Qapio?
+      options:
+        - non-blocking
+        - blocking
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: date1
+    attributes:
+      label: Blocking
+      description: Is the issue blocking you from using Qapio?
+      options:
+        - non-blocking
+        - blocking
+    validations:
+      required: false
+    id: date2
+    attributes:
+      label: Blocking2
+      description: Is the issue blocking you from using Qapio?
       options:
         - non-blocking
         - blocking
