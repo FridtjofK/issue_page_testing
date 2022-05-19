@@ -51,17 +51,16 @@ body:
   - type: dropdown
     id: date1
     attributes:
-      label: Blocking
+      label: Blocking2
       description: Is the issue blocking you from using Qapio?
       options:
         - non-blocking
         - blocking
-      options:
-        - 1
-        - 2
+      options2:
+        - non-blocking1
+        - blocking1
     validations:
       required: false
-      
   - type: input
     id: last_working_date
     attributes:
