@@ -1,14 +1,14 @@
 name: 🐛 Bug report
 description: Something not working as expected?
 title: "[Bug Report]: <title>"
-labels: "bug report"
+labels: "bug"
 
 body:
   - type: checkboxes
     id: existing_issue
     attributes:
       label: Is there an existing similar issue?
-      description: Please search for similar existing and solved issues before committing yours.
+      description: Please [search](https://github.com/FridtjofK/issue_page_testing/issues?q=is%3Aopen+is%3Aissue+label%3Abug) for similar existing and solved issues before committing yours.
       options:
         - label: I have searched for similar issues, but haven't found any equivalent.
           required: true
