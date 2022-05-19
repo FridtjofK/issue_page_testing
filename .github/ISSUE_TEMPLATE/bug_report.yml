@@ -56,14 +56,9 @@ body:
       options:
         - non-blocking
         - blocking
-    validations:
-      required: false
-    id: date2
-    attributes:
-
       options:
-        - non-blocking
-        - blocking
+        - 1
+        - 2
     validations:
       required: false
       
