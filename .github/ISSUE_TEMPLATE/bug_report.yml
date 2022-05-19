@@ -47,25 +47,11 @@ body:
         - blocking
     validations:
       required: false
-      
-  - type: dropdown
-    id: date1
-    attributes:
-      label: Blocking2
-      description: Is the issue blocking you from using Qapio?
-      options:
-        - non-blocking
-        - blocking
-      options2:
-        - non-blocking1
-        - blocking1
-    validations:
-      required: false
   - type: input
     id: last_working_date
     attributes:
       label: Last working date
-      description: When was the last known working date?
+      description: When was the last known working date? Please use a date with format DD/MM/YY e.g. 31.12.21
     validations:
       required: false      
   - type: textarea
@@ -73,7 +59,9 @@ body:
     attributes:
       label: What issue are you facing?
       description: Also tell us, what the expeceted outcome was?
-      placeholder: "Please describe the bug and the expected out you have encountered as detailed as possible"
+      placeholder: |
+        1. Describe the bug you encountered as detailed as possible.
+        2. What was the exptected outcome?
     validations:
       required: true
   - type: textarea
@@ -91,7 +79,7 @@ body:
     id: provide-logs
     attributes:
       label: Can you provide any relevant logs or output?
-      description: Please provide logs or output to illustrate your issue. Please only provide non-sensitive data"
+      description: Please provide logs or output to illustrate your issue. Please only provide non-sensitive data.
       placeholder: "Click here and then drag and drop your attachments"
     validations:
       required: false
